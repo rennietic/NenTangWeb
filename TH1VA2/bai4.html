@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Body">
+      <h4>Basic Infor</h4>
+      <hr />
+
+      <form>
+        <table>
+          <tr>
+            <th><label for="EmployeeID">Employee ID</label></th>
+            <td>9</td>
+          </tr>
+          <tr>
+            <th><label for="LastName">Last Name</label></th>
+            <td>Dodsworth</td>
+          </tr>
+          <tr>
+            <th><label for="FirstName">First Name</label></th>
+            <td>
+              <input type="text" name="FirstName" id="FirstName" size="20px" />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="Gender">Gender</label></th>
+            <td>
+              <input type="radio" name="Gender" id="Male" /><strong
+                >Male</strong
+              >
+              <br />
+              <input type="radio" name="Gender" id="Female" /><strong
+                >Female</strong
+              >
+              <br />
+              <input type="radio" name="Gender" id="XXX" /><strong>XXX</strong>
+              <br />
+              <input type="radio" name="Gender" id="ZZZ" /><strong>ZZZ</strong>
+              <br />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="Title">Title</label></th>
+            <td><input type="text" name="Title" id="Title" size="20px" /></td>
+          </tr>
+
+          <tr>
+            <th><label for="Suffix">Suffix</label></th>
+            <td><input type="text" name="Suffix" id="Suffix" size="20px" /></td>
+          </tr>
+
+          <tr>
+            <th><label for="BirthDate">BirthDate</label></th>
+            <td>
+              <input
+                type="datetime-local"
+                name="BirthDate"
+                id="BirthDate"
+                size="20px"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><label for="HireDate">HireDate</label></th>
+            <td>
+              <input
+                type="datetime-local"
+                name="HireDate"
+                id="HireDate"
+                size="20px"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><label for="SSN">SSN # (if applicable)</label></th>
+            <td><input type="text" name="SSN" id="SSN" size="20px" /></td>
+          </tr>
+
+          <tr>
+            <th><label for="ReportsTo">Reports To</label></th>
+            <td>
+              <select>
+                <option>Timolop</option>
+                <option>Buchanan</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <form action="">
+        <table>
+          <h4>Contact Info</h4>
+          <hr />
+          <tr>
+            <th for="Email"><label>Email</label></th>
+            <td>
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                placeholder="name@example.com"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="Adress"><label>Adress</label></th>
+            <td>
+              <input type="text" id="Adress" name="Adress" />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="City"><label>City</label></th>
+            <td>
+              <input type="text" id="City" name="City" />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="Region"><label>Region</label></th>
+            <td>
+              <input type="text" id="Region" name="Region" />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="PostalCode"><label>Postal Code</label></th>
+            <td>
+              <input type="text" id="PostalCode" name="PostalCode" />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="Country"><label>Country</label></th>
+            <td>
+              <select>
+                <option>Russian Federation</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th for="USHomePhone"><label>US Home Phone</label></th>
+            <td>
+              <input type="tel" id="USHomePhone" name="USHomePhone" />
+            </td>
+          </tr>
+
+          <tr>
+            <th for="Photo"><label>Photo</label></th>
+            <td>
+              <input type="url" id="Photo" name="Photo" />
+            </td>
+          </tr>
+        </table>
+        <h4>Optional Info</h4>
+        <hr />
+        <table>
+          <tr>
+            <th>Notes</th>
+            <td>
+              <textarea></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th rowspan="2"><label for="">Preferred Shift</label></th>
+            <td><input type="checkbox" /> <strong>Regular</strong></td>
+
+            <!-- <th>
+              <input type="checkbox">Gravy Yard <br>
+              </th> -->
+          </tr>
+          <tr>
+            <td><input type="checkbox" /> <strong>Geavy Yard</strong></td>
+          </tr>
+
+          <tr>
+            <th><label>Active?</label></th>
+            <td>
+              <input type="checkbox" />
+            </td>
+          </tr>
+
+          <tr>
+            <th rowspan="2"><label>Are you human?</label></th>
+          </tr>
+          <tr>
+            <th>Click to change</th>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

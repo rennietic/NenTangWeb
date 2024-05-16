@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
+}
+header a {
+  font-size: 30px;
+  font-weight: 640;
+  text-decoration: none;
+  color: brown;
+}
+
+#element {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+#element img {
+  width: 100%;
+  height: 170px;
+  display: block;
+}
+#element h3 {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+#element1 {
+  margin-right: 40px;
+}
+
+i {
+  color: brown;
+}
+#Vanban {
+  margin-bottom: 15px;
+}
+#icon {
+}

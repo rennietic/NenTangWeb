@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+.Body {
+  box-sizing: border-box;
+  background-color: rgb(255, 252, 249);
+  width: 500px;
+  margin: 50px auto;
+  border: 8px solid rgb(223, 223, 223);
+}
+th,
+td {
+  padding: 0 10px;
+  text-align: left;
+}
