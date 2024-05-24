@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylebai4Lan2.css">
+    
+    <title>Document</title>
+  </head>
+  <body>
+ 
+    <div id="main">
+      <div id="TieuDeDauTien">
+        <h2>Basic Infor</h2>
+        <hr>
+      </div>
+        <div id="Form_Group">
+          <label for="EmployeeID" id="TieuDe">Employee ID</label>
+          <input
+            type="text"
+            id="EmployeeID"
+            name="EmployeeID"
+            value="9"
+            readonly
+          />
+        </div>
+
+        <div id="Form_Group">
+          <label for="LastName" id="TieuDe">Last Name</label>
+          <input type="text" id="LastName" name="LastName" value="Dodsworth"  />
+        </div>
+
+        <div id="Form_Group">
+            <label for="FirstName" id="TieuDe">First Name</label>
+            <input type="text" id="FirstName" name="FirstName" value="Dodsworth" />
+          </div>
+        <div id="Form_Group">
+            
+            <label for="Gender" id="GioiTinh">Gender</label>
+            <div id="radio_Group">
+                <label><input type="radio" name="Gender" id="Male">Male</label>
+                <label><input type="radio" name="Gender" id="Female">Female</label>
+                <label><input type="radio" name="Gender" id="XXX">XXX</label>
+                <label><input type="radio" name="Gender" id="ZZZ">ZZZ</label>
+            
+              </div>
+        </div>
+        <div id="Form_Group">
+            <label for="Title" id="TieuDe">Title</label>
+            <input type="text" id="Title" name="Title" value="Sales Representative" />
+          </div>
+          <div id="Form_Group">
+            <label for="Suffix" id="TieuDe">Suffix</label>
+            <input type="text" id="Suffix" name="Suffix" value="Ms." />
+          </div>
+          <div id="Form_Group">
+            <label for="BirthDate" id="TieuDe">BirthDate</label>
+            <input type="text" id="BirthDate" name="BirthDate" value="1969-07-02 00:00:00" />
+          </div>
+          <div id="Form_Group">
+            <label for="HireDate" id="TieuDe">HireDate</label>
+            <input type="text" id="HireDate" name="HireDate" value="1994-11-15 00:00:00" />
+          </div>
+          <div id="Form_Group">
+            <label for="SSN" id="TieuDe">SSN # (if applicable)</label>
+            <input type="text" id="SSN" name="SSN"/>
+          </div>
+          <div id="Form_Group">
+            <label for="ReportsTo" id="TieuDe">Reports To</label>
+          <select id="ReportsTo" name="ReportsTo">
+              <option value="Cinema" selected>Cinema</option>
+                 <option value="Buchanan" selected>Buchanan</option>
+            </select>  
+          </div>
+
+          <div id="TieuDeThuHai">
+            <h2>Contact Infor</h2>
+            <hr>
+          </div>
+          <div id="Form_Group">
+              <label for="Email">Email</label>
+              <input type="email" id="Email" name="Email" placeholder="name@example.com">
+          </div>
+          <div id="Form_Group">
+            <label for="Adress">Adress</label>
+            <input type="text" id="Adress" name="Adress" value="7 Houndstooh Rd.">
+        </div>
+        <div id="Form_Group">
+          <label for="City">City</label>
+          <input type="text" id="City" name="City" value="London">
+      </div>
+      <div id="Form_Group">
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" value="London">
+    </div>
+    <div id="Form_Group">
+      <label for="Region">Region</label>
+      <input type="text" id="Region" name="Region">
+  </div>
+  <div id="Form_Group">
+    <label for="PostalCode">Postal Code</label>
+    <input type="text" id="PostalCode" name="PostalCode">
+</div>
+<div id="Form_Group">
+  <label for="Country">Country</label>
+  <select id="Country" name="Country">
+    <option value="RussianFederation" selected>Russian Federation</option>
+       <option value="VietNam">Việt Nam</option>
+  </select>
+</div>
+<div id="Form_Group">
+  <label for="UsHomePhone">Us Home Phone</label>
+  <input type="tel" id="UsHomePhone" name="UsHomePhone" value="(234)234-2342">
+</div>
+<div id="Form_Group">
+  <label for="Photo">Photo</label>
+  <input type="text" id="Photo" name="Photo">
+</div>
+
+<div id="TieuDeThuHai">
+  <h2>Optional Infor</h2>
+  <hr>
+</div>
+
+<div id="Form_Group">
+  <label for="Notes" id="Notes">Notes</label>
+  <textarea id="mytextarea" name="notes">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.</textarea>
+</div>
+<div id="Form_Group">
+  <label for="Preferred">Preferred</label>
+  <div id="checkbox">
+    <input type="checkbox" id="Preferred" name="Preferred"> Regular
+    <br>
+    <input type="checkbox" id="Preferred" name="Preferred" checked> Gravy Yard
+  </div>
+</div>
+
+
+  <div id="Form_Group">
+    <label for="Active">Active?</label>
+    <div id="checkbox">
+      <input type="checkbox" id="Preferred" name="Preferred">
+    </div>
+</div>
+
+<div id="Form_Group">
+  <label for="Areyouhuman" id="Areyouhuman">Are you human?</label>
+  <div id="Form_TIDAWO">
+        <label id="TIDAWO" name="Areyouhuman">TIDAWO</label>
+        <label id="ClickToChange">Click to change</label>
+        <input type="text" id="Areyouhuman" name="Areyouhuman" class="inputClickToChange" style="height: 20px;">
+  </div>
+</div>
+<hr>
+<div id="arrow-container">
+ <p><i class="arrow left"></i></p>
+  <p><i class="arrow right"></i></p>
+  <div id="button-container">
+    <button class="btn-submit">
+       <i class="icon icon-submit"></i> Submit
+    </button>
+    <button class="btn btn-cancel">
+     <i class="icon icon-cancel"></i> Cancel
+ </button>
+ </div>
+</div>
+
+
+</form>
+
+    </div>
+  </body>
+</html>
