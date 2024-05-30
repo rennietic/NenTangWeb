@@ -1,0 +1,12 @@
+.Tag {
+    font-weight: bold;
+}
+
+
+.d_style
+{
+    display: grid;
+    grid-template-columns: 200px minmax(200px,400px);
+    padding: 5px;
+    padding-left: 30px;
+}
